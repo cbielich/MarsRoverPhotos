@@ -18,6 +18,7 @@ Next you will need to install a module for Node called `node-fetch`
 ```
 npm install node-fetch
 ```
+That's it, your done installing.
 # Paths
 | Location  | End Point |
 | --------  | --------- |
