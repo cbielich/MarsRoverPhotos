@@ -40,4 +40,4 @@ app.get('/api/v1/:api_key/:earth_date', (req, res) => {
 });
 
 app.listen(port);
-console.log('API URL http://localhost:'+port+'/api/v1/YYYY-MM-DD');
+console.log('API URL http://localhost:'+port+'/api/v1/<--api_key-->/YYYY-MM-DD');
