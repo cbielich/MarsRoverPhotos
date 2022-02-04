@@ -1,4 +1,4 @@
-# MarsRoverPhotos
+# NASA's Mars Rover Photos API Wrapper
 You can use MarsRoverPhotos API to access photos from NASA's Curiosity, Opportunity, and Spirit rovers on Mars.
 # Installation
 This API requires node.js to be installed on your local machine first. After installing Node on your computer run the following command to set up your Dev enviroment.
