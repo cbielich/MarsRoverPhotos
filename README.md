@@ -5,7 +5,7 @@ This API requires node.js to be installed on your local machine first. After ins
 ```
 npm init
 ```
-`npm` will ask you to give your project a name. You can call it `MarsRoverPhotos`.
+`npm` will ask you to give your project a name. You can call it `MarsRoverPhotos`. The rest you can leave as default.
 
 In your `package.json` file which will be located at the root of your project after creating it you will need to add `"type": "module"` to the top level of this JSON file.
 ### Example
