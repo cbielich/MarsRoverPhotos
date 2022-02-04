@@ -3,7 +3,21 @@ You can use MarsRoverPhotos API to access photos from NASA's Curiosity, Opportun
 # Installation
 This API requires node.js to be installed on your local machine first.
 
-
+In your `package.json` file which will be located at the root of your project after installing Node you will need to add `"type": "module"` to the top level of the file.
+### Example
+```
+{
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-fetch": "^3.2.0"
+  }
+}
+```
+Next you will need to install a module for Node called `node-fetch`
+```
+npm install node-fetch
+```
 # Paths
 | Location  | End Point |
 | --------  | --------- |
