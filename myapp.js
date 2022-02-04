@@ -18,9 +18,9 @@ app.get('/api/v1/:api_key/:earth_date', (req, res) => {
     res.send({ error: 'Invalid Date Format (Exp: YYYY-MM-DD)'})
     return
   }
-  const myRequest = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key='+api_key+'&earth_date='+earth_date;
+  const url = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key='+api_key+'&earth_date='+earth_date;
   
-  fetch(myRequest)
+  fetch(url)
   .then(response => response.json())
   .then(function(response) {
     const arr = [];
@@ -33,7 +33,7 @@ app.get('/api/v1/:api_key/:earth_date', (req, res) => {
     res.send(arr)
   })
   .catch((error) => {
-    res.send({ error: error});
+    res.send({ error: error });
     return
   });
   
