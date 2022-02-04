@@ -33,7 +33,8 @@ app.get('/api/v1/:api_key/:earth_date', (req, res) => {
     res.send(arr)
   })
   .catch((error) => {
-    console.error('Error:', error);
+    res.send({ error: error});
+    return
   });
   
 });
